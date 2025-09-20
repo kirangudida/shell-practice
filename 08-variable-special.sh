@@ -2,6 +2,7 @@
 
 echo "All variables passed to the script: $@"
 echo "All variables passed to the script: $*"
+echo "Total Number of Parameters are: $#"
 echo "Script name: $0"
 echo "Current directory: $PWD"
 echo "Who is running this: $USER"
